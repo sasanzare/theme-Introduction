@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../font/Yekan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.b-yekan{
+	font-weight: 600;
+}
+
+*{
+	direction: rtl;
+	font-family: 'yekan';
+}
+::selection {
+    background: #e88e91;
+    color: white;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#header{
+	z-index: 1000;
+}
+.header{
+	background: #f1e4da;
+	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+	-webkit-transition: .8s ease-in-out;
+	 transition: .8s ease-in-out;
+}
+.header-none{
+	background:transparent;
+	box-shadow: none;
+	-webkit-transition: .8s ease-in-out;
+	 transition: .8s ease-in-out;
+}
+.wrap-brand{
+	height: 62.4vh;
+}
+.wrap-des{
+	height: 39.5%;
+	background: #f7efe7;
+}
+.btn-consult{
+	 background: #f5a291;
+	 border-radius: 20px;
+	 color: #fff;
+}
+.btn-consult:hover{
+	text-shadow: 1px 1px 1px hsla(0, 100%, 0%, 0.5);
+	box-shadow: 1px 1px 1px hsla(0, 100%, 0%, 0.2);
+	color: #f7efe7;
+}
+input:focus,textarea:focus,button:focus {
+  box-shadow: none!important;
+}
+
+.z-2{
+	z-index: 2;
+}
+.vh-103{
+	height: 103vh;
+}
+
+p{
+    font-size: 14px;
+		line-height: 2;
+}
+
+.bg-betw{
+	background: #f3eae3;
+}
+
+.sub-h3{
+	color: #a3745a;
+}
+.text-cyan{
+	color: #66c0ce!important;
+}
+
+.j-title{
+  font-size: 48px;
+}
+.f-s{
+	font-size: 20px;
+}
+.text-gray{
+	color: #7f7f7f;
+}
+.hr-dot{
+	 border-top: 1px dotted #7f9e26;
+}
+.border-cyan{
+	border-color: #66c0ce;
+}
+
+.hr-dot ~ p{
+	width: fit-content;
+	margin-top: -30px;
+	color: #7f9e26;
+}
+ul > li{
+	background: transparent!important;
+	color: #7f7f7f;
+	font-size: 14px;
+	border: none!important;
+}
+
+.img-footer{
+	height: 500px;
+}
+
+.text-footer{
+	margin-top: -420px;
+}
+.img-big{
+	position: absolute;
+	left: 0;
+  top: 335px;
+  width: 165px;
+
+}
+@media screen and (max-width: 767px) {
+	#header{
+		background: #f1e4da;
+		box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+		-webkit-transition: .8s ease-in-out;
+		 transition: .8s ease-in-out;
+	}
+	.img-big{
+		top: 417px;
+    width: 101px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.j-title{
+	  font-size: 46px;
+	}
+}
